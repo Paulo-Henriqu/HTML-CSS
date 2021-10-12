@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Teko:wght@400;600;700&display=swap');
+
+:root{
+    --cor1: #8489EC;
+    --cor2: #3C45E8;
+    --cor3: #2F36B5;
+    --cor4: #00056B;
+    --cor5: #1B1F69;
+
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+    --fonte-2: 'Teko', sans-serif;
+    --fonte-3: 'Bangers', cursive;
+    --fonte-3: 'Bangers', cursive;
+
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+
+header{
+    text-align: center;
+    font-family: var(--fonte-4);
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+}
+
+nav{
+    padding: 15px;
+    background-color: var(--cor4);
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 17, 7);
+    transition: .2s;
+}
+
+body{
+    text-decoration: none;
+}
+
+body h1{
+    margin: 20px;
+}
+
+body h2{
+    margin: 20px;
+}
+
+body p{
+    text-indent: 20px;
+}
+
+div{
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 0));
+    padding: 10px;
+    color: white;
+}
